@@ -30,6 +30,13 @@ class Program
                     Console.Write("Введите B: ");
                     B = double.Parse(Console.ReadLine());
                     break;
+                case 3:
+                    Console.WriteLine($"Результат: {A + B}");
+                    break;
+                case 4:
+                    Console.WriteLine($"Результат: {A - B}");
+                    break;
+
             }
         } while (choice != 0);
     }
