@@ -33,18 +33,7 @@ class Program
                 case 3:
                     Console.WriteLine($"Результат: {A + B}");
                     break;
-                case 4:
-                    Console.WriteLine($"Результат: {A - B}");
-                    break;
-                case 5:
-                    Console.WriteLine($"Результат: {A * B}");
-                    break;
-                case 6:
-                    if (B != 0)
-                        Console.WriteLine($"Результат: {A / B}");
-                    else
-                        Console.WriteLine("Ошибка: деление на ноль!");
-                    break;
+
             }
         } while (choice != 0);
     }
